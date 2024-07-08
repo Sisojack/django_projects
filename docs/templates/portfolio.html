@@ -1,0 +1,24 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'index' %}">Home</a>
+<a href="{% url 'contact' %}">Contact</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'portfolio' %}">Portfolio</a>
+
+<h2>See our work over the years</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum distinctio error esse officiis provident suscipit tempora tempore temporibus vero. Aspernatur fuga magni non numquam officiis provident quibusdam ullam voluptatibus?</span><span>Accusamus ad adipisci aperiam asperiores atque autem consectetur dolores dolorum earum est fugit, illo maiores nesciunt nihil nisi nostrum officia optio perferendis porro quibusdam quisquam ratione rerum sapiente ullam unde.</span><span>Aspernatur autem cumque delectus distinctio dolor dolorem dolorum eius esse est eveniet illo impedit ipsa ipsam iste labore molestias, natus necessitatibus nesciunt officiis omnis optio placeat reiciendis saepe sunt totam?</span><span>Doloremque eum explicabo, facilis laudantium quidem reprehenderit. Amet debitis est eum eveniet exercitationem facere fugit laborum magnam maiores nihil nulla odio omnis, optio placeat qui quos
+    tempore vero voluptatem. Amet!</span></p>
+<img src="{% static 'images/img2.jpeg' %}" alt="">
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'index' %}">Home</a>
+<a href="{% url 'contact' %}">Contact</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'portfolio' %}">Portfolio</a>
+
+<h2>This is the about page</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet autem ducimus error incidunt quasi qui! Ab adipisci assumenda maxime nemo odio officia provident quibusdam, quod, reprehenderit similique tempore voluptatem.</span><span>Amet aspernatur atque dolore ducimus, eius fugiat id ipsa modi reprehenderit rerum sapiente, tenetur. Aliquid explicabo maiores neque non odit rem ut voluptatem. Asperiores dolore doloremque fugit impedit nostrum perferendis?</span><span>Ab corporis culpa dolorem doloremque illo ipsam iure laborum nesciunt, non possimus quidem, quod repellendus repudiandae temporibus ullam? A adipisci aspernatur, culpa delectus laboriosam nobis perspiciatis provident saepe unde vero?</span><span>Aliquam aliquid aut beatae doloribus, ducimus eaque est harum illum ipsam laboriosam laborum laudantium necessitatibus nemo nobis obcaecati officia provident quisquam quod reprehenderit similique sit soluta totam ullam unde voluptatem.</span><span>Cum deleniti dicta impedit mollitia officiis, quo sit unde! Aut et inventore iure nesciunt nihil quibusdam quidem quos temporibus vero. Dicta ea eius illo in neque nulla, praesentium reiciendis repellendus.</span><span>Accusamus aperiam assumenda debitis delectus, eaque error exercitationem facere fugiat id, iure magnam nemo obcaecati quaerat quia reiciendis soluta, vero. Blanditiis odit quibusdam quos reprehenderit similique sit soluta ullam veritatis!</span><span>Assumenda dolore fugiat libero odit quibusdam quisquam repudiandae veniam! Aspernatur assumenda consectetur cumque deleniti dolore doloribus dolorum ex in laudantium libero mollitia nostrum odit quis, saepe, voluptate. Doloribus ea, quam!</span><span>Alias animi aperiam asperiores atque cumque debitis dolore eaque, eius et eveniet facilis incidunt inventore itaque libero neque obcaecati perspiciatis porro quae quaerat quas quibusdam quisquam rerum
+    vel voluptas voluptate!</span></p>
+<img src="{% static 'images/img2.jpeg' %}" alt="">
+</body>
+</html>

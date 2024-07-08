@@ -1,0 +1,26 @@
+
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'index' %}">Home</a>
+<a href="{% url 'contact' %}">Contact</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'portfolio' %}">Portfolio</a>
+
+<h2>This is the HTML homepage</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, atque autem beatae commodi corporis dicta dignissimos doloribus ea eligendi eum minima minus molestiae non numquam similique suscipit tempore
+    vel?</p>
+<img src="{% static 'images/img1.jpeg' %}" alt="">
+
+</body>
+</html>
